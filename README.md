@@ -1,42 +1,47 @@
-# ✨ Full Stack Realtime Chat App ✨
+Connectify Real Time Chat Application
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+Connectify is a full stack real time chat application that enables users to communicate instantly through a seamless and interactive messaging interface. The application uses WebSocket technology to provide real time message delivery and ensures secure communication between users with persistent chat history storage.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+The project is built using modern web development technologies with React.js for the frontend and Node.js with Express.js for the backend, providing a responsive and efficient user experience.
 
-Highlights:
+Features
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+User authentication system
 
-### Setup .env file
+One to one real time messaging
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+Instant message delivery using Socket.io
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+Responsive user interface
 
-NODE_ENV=development
-```
+Persistent chat history storage
 
-### Build the app
+Online and offline user status
 
-```shell
-npm run build
-```
+Dynamic chat updates without page refresh
 
-### Start the app
+Tech Stack
 
-```shell
-npm start
-```
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+React.js
+
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+MongoDB
+
+Real Time Communication
+
+Socket.io
